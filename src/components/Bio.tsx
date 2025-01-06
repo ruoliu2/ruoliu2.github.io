@@ -1,6 +1,7 @@
 import { EnvelopeIcon } from "@heroicons/react/24/outline";
 import { MarkGithubIcon } from "@primer/octicons-react";
 import Head from "next/head";
+import { siteConfig } from "../config/site";
 
 const socialLinks = [
   {
@@ -44,7 +45,7 @@ export default function Bio() {
           content="Ruo Liu, UIUC, Software Engineer, Distributed Systems, Machine Learning, Apple"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://ruoliu.dev" />
+        <link rel="canonical" href={siteConfig.domain} />
       </Head>
 
       <div className="min-h-screen w-full px-4 sm:px-6 lg:px-8 pt-24">
