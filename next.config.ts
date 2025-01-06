@@ -9,8 +9,6 @@ const nextConfig: NextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Disable static 404 page generation
-  staticPageGenerationTimeout: 0,
 };
 
 export default nextConfig;
