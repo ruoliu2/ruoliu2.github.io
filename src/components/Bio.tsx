@@ -1,7 +1,7 @@
 import {EnvelopeIcon} from "@heroicons/react/24/outline";
 import {MarkGithubIcon} from "@primer/octicons-react";
 import Head from "next/head";
-import {siteConfig} from "../config/site";
+import {siteConfig} from "@/config/site";
 
 const socialLinks = [
     {
