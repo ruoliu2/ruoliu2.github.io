@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "https://ruoliu.netlify.app"
+  to = "https://ruoliu2.github.io/next-profile/"
+  status = 301
+  force = true
