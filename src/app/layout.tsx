@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "../styles/globals.css";
 import { Inter } from "next/font/google";
-import { siteConfig } from "../config/site";
+import { siteConfig } from "@/config/site";
 import Script from "next/script";
 
 const inter = Inter({
@@ -49,6 +49,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <head>
+        <link rel="canonical" href={siteConfig.domain} />
         <Script
           id="json-ld"
           type="application/ld+json"
