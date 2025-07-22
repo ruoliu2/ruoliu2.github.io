@@ -6,7 +6,7 @@ import {siteConfig} from "@/config/site";
 const socialLinks = [
     {
         icon: <EnvelopeIcon className="w-5 h-5"/>,
-        href: "mailto:ruoliu.dev@gmail.com",
+        href: "mailto:ruoliu.nj@gmail.com",
         label: "Email",
     },
     // {
@@ -33,11 +33,11 @@ export default function Bio() {
                 <title>Ruo Liu</title>
                 <meta
                     name="description"
-                    content="Ruo Liu, Apple software engineer."
+                    content="Ruo Liu, SDE @ AWS, ex Apple"
                 />
                 <meta
                     name="keywords"
-                    content="Ruo Liu, UIUC, Software Engineer, Distributed Systems, Machine Learning, Apple"
+                    content="Ruo Liu, UIUC, Software Engineer, Distributed Systems, Machine Learning, Apple, AWS"
                 />
                 <meta name="robots" content="index, follow"/>
                 <link rel="canonical" href={siteConfig.domain}/>
@@ -57,7 +57,7 @@ export default function Bio() {
                         </div>
 
                         <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                            I&#39;m a software engineer at Apple.
+                            I&#39;m a software engineer @ AWS, prev @ Apple.
                         </p>
 
                         <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
