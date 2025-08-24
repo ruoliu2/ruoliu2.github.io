@@ -53,7 +53,8 @@ export default function Bio() {
                             <a
                                 href="/resume.pdf"
                                 className="text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100 transition-colors"
-                            ></a>
+                            >
+                            </a>
                         </div>
 
                         <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
@@ -63,16 +64,8 @@ export default function Bio() {
                         <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
                             I graduated from the University of Illinois at Urbana-Champaign
                             with a B.S. in Computer Science.
+                            
                         </p>
-
-                        <div className="space-y-4">
-                            <h3 className="text-lg font-semibold">My interests include:</h3>
-                            <ul className="space-y-3 text-gray-600 dark:text-gray-400">
-                                <li>Distributed systems</li>
-                                <li>Machine learning</li>
-                                <li>Software engineering</li>
-                            </ul>
-                        </div>
 
                         <div className="flex gap-4">
                             {socialLinks.map((link) => (
