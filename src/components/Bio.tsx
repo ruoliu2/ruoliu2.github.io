@@ -62,8 +62,7 @@ export default function Bio() {
                         </p>
 
                         <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                            I graduated from the University of Illinois at Urbana-Champaign
-                            with a B.S. in Computer Science.
+                            I'm a UIUC CS alumni.
                             
                         </p>
 
