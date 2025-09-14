@@ -62,7 +62,7 @@ export default function Bio() {
                         </p>
 
                         <p className="text-gray-600 dark:text-gray-400 leading-relaxed">
-                            I'm a UIUC CS alumni.
+                            I&#39;m a UIUC CS alumni.
                             
                         </p>
 
