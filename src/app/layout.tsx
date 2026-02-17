@@ -1,12 +1,19 @@
 import type {Metadata} from "next";
 import "../styles/globals.css";
-import {Inter} from "next/font/google";
+import {Chakra_Petch, IBM_Plex_Mono} from "next/font/google";
 import {siteConfig} from "@/config/site";
 import Script from "next/script";
 
-const inter = Inter({
+const chakraPetch = Chakra_Petch({
     subsets: ["latin"],
-    variable: "--font-inter",
+    weight: ["400", "500", "600", "700"],
+    variable: "--font-chakra-petch",
+});
+
+const ibmPlexMono = IBM_Plex_Mono({
+    subsets: ["latin"],
+    weight: ["400", "500", "600"],
+    variable: "--font-ibm-plex-mono",
 });
 
 export const metadata: Metadata = {
@@ -47,7 +54,7 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en" className={inter.className}>
+        <html lang="en" className={`${chakraPetch.variable} ${ibmPlexMono.variable}`}>
         <head>
             <Script
                 id="json-ld"
